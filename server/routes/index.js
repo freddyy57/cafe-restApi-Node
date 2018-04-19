@@ -14,6 +14,12 @@ app.use(require('./categoria'));
 // importar y usar ruta producto
 app.use(require('./producto'));
 
+// importar y usar ruta uploads
+app.use(require('./upload'));
+
+// importar y usar ruta imagenes
+app.use(require('./imagenes'));
+
 
 
 module.exports = app;
